@@ -1,6 +1,6 @@
 /* global Phaser */
 
-// Copyright (c) 2020 Mr. Coxall All rights reserved 
+// Copyright (c) 2020 Mr. Coxall All rights reserved
 //
 // Created by: Maryam Nona
 // Created on: April 2021
