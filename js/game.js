@@ -15,7 +15,6 @@ const splashScene = new SplashScene()
 const titleScene = new TitleScene()
 const menuScene = new MenuScene()
 
-
 //* Game scene */
 const config = {
   type: Phaser.AUTO,

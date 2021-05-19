@@ -11,7 +11,7 @@ class TitleScene extends Phaser.Scene {
     super({ key: 'titleScene' })
 
     this.titleSceneBackgroundImage = null
-    this.titleSceneText= null
+    this.titleSceneText = null
     this.titleSceneTextStyle = { font: '200px Times', fill: 'afde4b9', align: 'center' }
   }
 
@@ -21,7 +21,7 @@ class TitleScene extends Phaser.Scene {
 
   preload () {
     console.log('Title Scene')
-    this.load.image('titleSceneBackgroundImage','./assets/aliens_screen_image.jpg')
+    this.load.image('titleSceneBackgroundImage' ,'./assets/aliens_screen_image.jpg')
   }
 
   create (data) {
