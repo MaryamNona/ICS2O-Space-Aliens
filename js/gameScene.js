@@ -31,13 +31,13 @@ class GameScene extends Phaser.Scene {
   create (data) {
     this.background = this.add.image(0, 0, 'starBackground').setScale(2.0)
     this.background.setOrigin(0, 0)
-    
+  
     this.ship = this.physics.add.sprite(1920 / 2, 1080 - 100, 'ship')
-    
+  
     // create a group for the missiles
     this.missileGroup = this.physics.add.group()
   }
-  
+
   update (time, delta) {
     // called 60 times a second, hopefully
 
@@ -58,7 +58,7 @@ class GameScene extends Phaser.Scene {
         this.ship.x = 1920
       }
     }
-    
+
     if (keySpaceObj.isDown === true) {
       if (this.fireMissile === false) {
         // fire missile
@@ -67,7 +67,7 @@ class GameScene extends Phaser.Scene {
         this.missileGroup.add(aNewMissile)
       }
     }
-    
+
     if (keySpaceObj.isUp === true) {
       this.fireMissile = false 
     }
