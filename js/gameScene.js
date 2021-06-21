@@ -84,7 +84,6 @@ class GameScene extends Phaser.Scene {
       this.gameOverText.setInteractive({ useHandCursor: true })
       this.gameOverText.on('pointerdown', () => this.scene.start('gameScene'))
     }.bind(this))
-
   }
 
   update (time, delta) {
