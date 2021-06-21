@@ -6,7 +6,7 @@
 // Created on: April 2021
 // This is the Game Scene
 
-class GameScene extends Phaser.Scene {
+class GameScene extends Phaser.Scene{
 
   // create an alien
   createAlien () {
